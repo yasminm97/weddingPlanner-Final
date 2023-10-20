@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Photography",
+        "icon": "<FontAwesomeIcon icon={faImage} size=\"2x\" />"
+    },
+    {
+        "title": "Videography",
+        "icon": "<FontAwesomeIcon icon={faVideo} size=\"2x\" />"
+    },
+    {
+        "title": "Cake",
+        "icon": "<FontAwesomeIcon icon={faCake} size=\"2x\" />"
+    },
+    {
+        "title": "Halls",
+        "icon": "<FontAwesomeIcon icon={faBuilding} size=\"2x\" />"
+    },
+    {
+        "title": "Car Rental",
+        "icon": "<FontAwesomeIcon icon={faCar} size=\"2x\" />"
+    },
+    {
+        "title": "DJ",
+        "icon": "<FontAwesomeIcon icon={faMusic} size=\"2x\" />"
+    },
+    {
+        "title": "Suits",
+        "icon": "<FontAwesomeIcon icon={faUserTie} size=\"2x\" />"
+    },
+    {
+        "title": "Dresses",
+        "icon": "<FontAwesomeIcon icon={faPersonDress} size=\"2x\" />"
+    },
+    {
+        "title": "Studios",
+        "icon": "<FontAwesomeIcon icon={faMicrochip} size=\"2x\" />"
+    },
+    {
+        "title": "Flowers",
+        "icon": "<FontAwesomeIcon icon={faVanShuttle} size=\"2x\" />"
+    },
+    {
+        "title": "Catering",
+        "icon": "<FontAwesomeIcon icon={faUtensils} size=\"2x\" />"
+    },
+    {
+        "title": "Music Band",
+        "icon": "<FontAwesomeIcon icon={faGuitar} size=\"2x\" />"
+    },
+    {
+        "title": "Decorating",
+        "icon": "<FontAwesomeIcon icon={faCouch} size=\"2x\" />"
+    },
+    {
+        "title": "Hair & Makeup",
+        "icon": "<FontAwesomeIcon icon={faPalette} size=\"2x\" />"
+    },
+    {
+        "title": "Invitations",
+        "icon": "<FontAwesomeIcon icon={faEnvelopeOpen} size=\"2x\" />"
+    },
+    {
+        "title": "Gifts & Favors",
+        "icon": "<FontAwesomeIcon icon={faGift} size=\"2x\" />"
+    }
+]

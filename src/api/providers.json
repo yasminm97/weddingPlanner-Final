@@ -1,0 +1,87 @@
+[
+    {
+      "username": "johndoe_photography",
+      "role": "Photographer",
+      "priceRange": "$1000 - $2500",
+      "rating": 4.8,
+      "reviews": [
+        "John is an amazing photographer! His work is top-notch and he's a pleasure to work with.",
+        "I couldn't be happier with the photos John took at my wedding. Highly recommended!",
+        "John's creativity and attention to detail really stood out. We cherish our wedding photos.",
+        "Great value for the quality of service. John exceeded our expectations."
+      ],
+      "isAvailable": true,
+      "image": "https://media.istockphoto.com/id/1411772543/photo/side-profile-of-african-woman-with-afro-isolated-against-a-white-background-in-a-studio.jpg?s=170667a&w=0&k=20&c=u9RByZtCfaKAd9L7ltntLLRW_dWwOySJr_w4S7x-srg="
+    },
+    {
+      "username": "videomaster2023",
+      "role": "Videographer",
+      "priceRange": "$1200 - $3000",
+      "rating": 4.9,
+      "reviews": [
+        "The videography by videomaster2023 was exceptional. They captured every special moment.",
+        "Professional and talented videographers. I'm thrilled with the video they created.",
+        "Highly recommend videomaster2023 for their outstanding work and dedication to our wedding.",
+        "They made us feel comfortable in front of the camera, resulting in a beautiful wedding video."
+      ],
+      "isAvailable": true,
+      "image": "https://i.pinimg.com/736x/9e/e8/c8/9ee8c8a0c09dd1dd69068a368a309491.jpg"
+    },
+    {
+      "username": "sweetcakesbylisa",
+      "role": "Cake Maker",
+      "priceRange": "$200 - $500",
+      "rating": 4.7,
+      "reviews": [
+        "Lisa's cakes are not only delicious but also beautifully designed. We loved ours!",
+        "The cake was a big hit at our wedding. It tasted as good as it looked.",
+        "Sweetcakesbylisa exceeded our expectations, and the cake was a highlight of our day.",
+        "Lisa's attention to detail in the cake design was outstanding."
+      ],
+      "isAvailable": true,
+      "image": "https://www.shutterstock.com/image-photo/young-adult-profile-picture-red-260nw-1655747050.jpg"
+    },
+    {
+      "username": "elegantrentals",
+      "role": "Car Rental",
+      "priceRange": "$500 - $1500",
+      "rating": 4.5,
+      "reviews": [
+        "The car from elegantrentals added a touch of luxury to our wedding. It was spotless.",
+        "The service was prompt and professional. We had a smooth experience with elegantrentals.",
+        "The vehicle was in great condition, and the driver was courteous and punctual.",
+        "Elegantrentals made our wedding transportation stress-free and stylish."
+      ],
+      "isAvailable": true,
+      "image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3763188.jpg&fm=jpg"
+    },
+    {
+      "username": "floralfantasydecor",
+      "role": "Decorator",
+      "priceRange": "$800 - $2000",
+      "rating": 4.6,
+      "reviews": [
+        "Floralfantasydecor transformed our venue into a dream. Their decorations were stunning.",
+        "The attention to detail and creativity in their decor was fantastic. Highly recommended!",
+        "The decor by floralfantasydecor truly set the mood for our wedding. It was magical.",
+        "They listened to our ideas and executed them perfectly, exceeding our expectations."
+      ],
+      "isAvailable": true,
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjBwcm9maWxlfGVufDB8fDB8fHww&w=1000&q=80"
+    },
+    {
+      "username": "royalweddinghall",
+      "role": "Wedding Hall",
+      "priceRange": "$3000 - $8000",
+      "rating": 4.9,
+      "reviews": [
+        "The Royal Wedding Hall was the perfect choice for our big day. Elegant and spacious.",
+        "Outstanding service and attention to detail. Our guests were impressed with the venue.",
+        "We received so many compliments on our venue choice. Royal Wedding Hall is top-notch.",
+        "The team at Royal Wedding Hall ensured everything ran smoothly. A memorable experience."
+      ],
+      "isAvailable": true,
+      "image": "https://i.pinimg.com/564x/b5/fa/2f/b5fa2ff262dd1b1bc391dbd1d0087833.jpg"
+    }
+  ]
+  

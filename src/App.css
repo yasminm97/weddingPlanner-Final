@@ -1,0 +1,87 @@
+.root{
+  color: #ccc;
+  display: block;
+  margin: auto;
+}
+.packages-container{
+  width: 100vw;
+  margin: auto;
+  overflow-x: hidden;
+}
+.package-cards-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  padding: 10px;
+  align-items: center;
+}
+.package-cards-container::-webkit-scrollbar{
+  width: 0;
+}
+
+.package-card {
+  min-width: 90vw !important; 
+  margin-right: 10px; 
+  border-radius: 10px;
+}
+
+.package-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  white-space: nowrap;
+  justify-content: space-evenly;
+}
+.services-container::-webkit-scrollbar{
+  width: 0;
+}
+.services-container .items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.service-item {
+  font-size: 12pt;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-item:last-child{
+  margin-right: 0px;
+}
+.service-item > svg {
+  margin-bottom: 10px;
+}
+
+.services-container .headings{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.package-details{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 11vh;
+  padding: 15px;
+}
+.home, .profile{
+  color: #4b4b4b;
+  margin-top: 12vh;
+}
