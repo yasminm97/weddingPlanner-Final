@@ -7,26 +7,17 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
-import FavoriteIcon from './FavoriteIcon'; // Replace with your actual FavoriteIcon component
+import FavoriteIcon from './FavoriteIcon'; 
 import providers from '../api/providers.json';
-import { primaryFontColor, secondayFontColor, bgCardColor, bgLightColor } from '../assets/custom/colors';
+import { primaryFontColor, secondayFontColor, bgLightColor } from '../assets/custom/colors';
 import { Link } from 'react-router-dom';
 import { Container, CssBaseline } from '@mui/material';
-
-interface Provider {
-  username: string;
-  role: string;
-  priceRange: string;
-  rating: number;
-  reviews: string[];
-  isAvailable: boolean;
-  image:string;
-}
+import { Provider } from '../entities/Providers'
 
 export default function Search() {
   const [data, setData] = useState<Provider[]>([]);
   const [searchResults, setSearchResults] = useState<Provider[]>([]);
-  
+
   useEffect(() => {
     setData(providers);
     setSearchResults(providers);
@@ -62,7 +53,6 @@ export default function Search() {
               ...params.InputProps,
               type: 'search',
             }}
-          
           />
         )}
       />
@@ -70,7 +60,8 @@ export default function Search() {
       {searchResults.map((result, index) => (
         <ListItem
         component={Link}
-        to='/service-provider-info'
+        to={`/service-provider-info/${result.id}`}
+        state={result}
           key={index}
           alignItems="flex-start"
           style={{
@@ -105,9 +96,8 @@ export default function Search() {
               </React.Fragment>
             }
           />
-          <FavoriteIcon />
+          <FavoriteIcon provider={result}/>
         </ListItem>
-        
           ))}
        </Stack>
       </Container>

@@ -10,7 +10,8 @@ import { bgLightColor, primaryFontColor } from '../assets/custom/colors'
 import FavoriteIcon from './FavoriteIcon';
 import { Provider } from '../entities/Providers'
 
-export default function PackageDetails() {
+export default function ServicesList({provider}) {
+
 
   const [data,setData] = React.useState<Provider[]>([]);
 
@@ -22,12 +23,12 @@ export default function PackageDetails() {
 
     <div className="package-details">
       <Typography variant="caption" fontWeight={'bold'} fontSize={'14pt'} color={primaryFontColor} textAlign={'left'}>
-        Favorites
+        
       </Typography>
       <List sx={{ bgcolor: 'background.paper',minWidth:'90vw' }} style={{margin:'auto'}}>
       { 
         data.map((data,i)=>(
-          !data.isFavorite &&
+        //   ( data.role ==  ) &&
           <div key={i}>
           <ListItem
             alignItems="flex-start"

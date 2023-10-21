@@ -26,7 +26,7 @@ export default function SProviderProfile({ user }) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="sm">
+      <Container maxWidth='sm' className='profile-container'>
         <Box sx={{ height: '100vh' }}>
           <Typography variant="caption" fontWeight="bold" fontSize="14pt" color={secondayFontColor}>
             Welcome {firstName} Planner

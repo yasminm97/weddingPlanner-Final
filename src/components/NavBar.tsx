@@ -38,13 +38,15 @@ export default function DrawerAppBar(props: Props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2, fontFamily: titleFontFamily, fontSize: '24px', color: primaryFontColor }}>
+      <Typography
+        className='logo'
+        variant="h6" sx={{ fontFamily:titleFontFamily, my: 2, fontSize: '24px', color: primaryFontColor }}>
         Wedding
       </Typography>
       <Divider />
       <List sx={{ color: primaryFontColor }}>
         {navItems.map((item, index) => (
-          <ListItem disablePadding key={item}>
+          <ListItem disablePadding key={index}>
             <ListItemButton onClick={() => handleNavigation(`/${item.toLowerCase()}`)}>
               <ListItemText primary={item} sx={{ textAlign: 'center' }} />
             </ListItemButton>
@@ -74,14 +76,15 @@ export default function DrawerAppBar(props: Props) {
             <MenuIcon />
           </IconButton>
           <Typography
+          className='logo'
             onClick={()=> navigate('/home')}
             variant="h4"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: 'rgba(0,90,52,51%)' }}
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: primaryFontColor }}
           >
             Wedding
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: 'none', sm: 'block' }, fontFamily:titleFontFamily }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: primaryFontColor }}
               onClick={() => handleNavigation(`/${item.toLowerCase()}`)}>

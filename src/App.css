@@ -1,3 +1,4 @@
+
 .root{
   color: #ccc;
   display: block;
@@ -28,8 +29,8 @@
 
 .package-image {
   width: 100%;
-  height: auto;
-  border-radius: 10px; 
+  height: 250px;
+  border-radius: 5px;
 }
 
 .services-container {
@@ -84,4 +85,14 @@
 .home, .profile{
   color: #4b4b4b;
   margin-top: 12vh;
+}
+.registration .container{
+  background-image: url('assets/bg-mobile.png');
+  background-size: cover;
+}
+@media only screen and (min-width: 700px){
+  .registration .container{
+    background-image: url('assets/bg.png');
+    background-size: cover;
+  }
 }

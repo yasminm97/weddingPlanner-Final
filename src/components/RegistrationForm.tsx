@@ -1,18 +1,17 @@
 import { Button, TextField, Container } from '@mui/material';
 import { FC, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
+import { bgCardColor, primaryFontColor } from '../assets/custom/colors';
 interface RegistrationFormProps {
   onSubmit: (data: { name: string; phone: string; role: string }) => void;
 }
 
-const customColor = 'rgba(0, 90, 52, 51%)';
 const RegistrationForm: FC<RegistrationFormProps> = ({ onSubmit }) => {
   
   const navigate = useNavigate();
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
-  const [role, setRole] = useState('normal');
+  const [role] = useState('normal');
   const tag = 'palnner';
   
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -23,6 +22,8 @@ const RegistrationForm: FC<RegistrationFormProps> = ({ onSubmit }) => {
 
   return (
     <Container
+    disableGutters
+    className='container'
       style={{
         width:'100vw',
         display: 'flex',
@@ -30,7 +31,8 @@ const RegistrationForm: FC<RegistrationFormProps> = ({ onSubmit }) => {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100vh',
-        backgroundColor:'#F9F9F9'
+        backgroundColor:'#F9F9F9',
+        margin:0,
       }}
     >
       <form
@@ -39,12 +41,13 @@ const RegistrationForm: FC<RegistrationFormProps> = ({ onSubmit }) => {
         border: '1px solid rgba(0,0,0,8%)',
         borderRadius: '10px',
         padding: '2rem',
-        width: '100%', 
+        width: '75%', 
         maxWidth: '400px', 
         backgroundColor:'white'
       }}>
         <TextField
           label="Name"
+          type='text'
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
@@ -68,20 +71,16 @@ const RegistrationForm: FC<RegistrationFormProps> = ({ onSubmit }) => {
           fullWidth
           variant="contained"
           sx={{
-            bgcolor: customColor,
+            bgcolor: primaryFontColor,
             boxShadow: 'none',
             marginTop: '16px',
             '&:hover': {
               boxShadow: 'none',
-              border: '1px solid ' + customColor,
-              bgcolor: 'transparent',
-              color: customColor,
+              bgcolor: bgCardColor,
             },
             '&:focus': {
               boxShadow: 'none',
-              border: '1px solid ' + customColor,
-              bgcolor: 'transparent',
-              color: customColor,
+              bgcolor: bgCardColor,
             },
           }}
           type="submit"
@@ -94,7 +93,7 @@ const RegistrationForm: FC<RegistrationFormProps> = ({ onSubmit }) => {
         variant='text'
         component={Link}
         to={`/profile?tag=${tag}`}
-        style={{ color: customColor }}
+        style={{ color: bgCardColor }}
         >
         Be a Planner
         </Button>

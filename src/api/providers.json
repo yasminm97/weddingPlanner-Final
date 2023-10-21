@@ -1,9 +1,10 @@
 [
     {
+      "id":1,
       "username": "johndoe_photography",
       "role": "Photographer",
       "priceRange": "$1000 - $2500",
-      "rating": 4.8,
+      "rating": 3.8,
       "reviews": [
         "John is an amazing photographer! His work is top-notch and he's a pleasure to work with.",
         "I couldn't be happier with the photos John took at my wedding. Highly recommended!",
@@ -11,9 +12,16 @@
         "Great value for the quality of service. John exceeded our expectations."
       ],
       "isAvailable": true,
-      "image": "https://media.istockphoto.com/id/1411772543/photo/side-profile-of-african-woman-with-afro-isolated-against-a-white-background-in-a-studio.jpg?s=170667a&w=0&k=20&c=u9RByZtCfaKAd9L7ltntLLRW_dWwOySJr_w4S7x-srg="
+      "isFavorite":true,
+      "image": "https://media.istockphoto.com/id/1411772543/photo/side-profile-of-african-woman-with-afro-isolated-against-a-white-background-in-a-studio.jpg?s=170667a&w=0&k=20&c=u9RByZtCfaKAd9L7ltntLLRW_dWwOySJr_w4S7x-srg=",
+      "works": [
+        "https://i.insider.com/61a7a6e10ed48c0019e537e8?width=700",
+        "https://content1.getnarrativeapp.com/static/7b55ef96-b396-48dc-ba3a-9b514f42c031/How-to-plan-a-national-park-wedding-bride-poses-with-friends-in-zion-national-park.jpg?w=300",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5bLtN-EvISL0eZpRW6iI1OmtPuNt2dx5Mf2yfnPrA-mx74o90u027LlhLiBcsl5UbzLA&usqp=CAU"
+      ]
     },
     {
+      "id":2,
       "username": "videomaster2023",
       "role": "Videographer",
       "priceRange": "$1200 - $3000",
@@ -25,9 +33,16 @@
         "They made us feel comfortable in front of the camera, resulting in a beautiful wedding video."
       ],
       "isAvailable": true,
-      "image": "https://i.pinimg.com/736x/9e/e8/c8/9ee8c8a0c09dd1dd69068a368a309491.jpg"
+      "isFavorite":false,
+      "image": "https://i.pinimg.com/736x/9e/e8/c8/9ee8c8a0c09dd1dd69068a368a309491.jpg",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIAOYpoBzBG6pWRDYw964q3bqJcE_3lDlVQv_Z7rn8&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHJ6cWqeqjf8faxXdZ7GfYrs5uIkEjvOsecgmq8Rdj8m8puqcEzWnIUhq5wNkIy3ZeJdI&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUk6k-JeTweCL8800oPfWfZlTbGO4ETX_jIQZPPIH6TVOOHM_Qy0m5wbc9VvvW6L-8dw&usqp=CAU"
+      ]
     },
     {
+      "id":3,
       "username": "sweetcakesbylisa",
       "role": "Cake Maker",
       "priceRange": "$200 - $500",
@@ -38,10 +53,17 @@
         "Sweetcakesbylisa exceeded our expectations, and the cake was a highlight of our day.",
         "Lisa's attention to detail in the cake design was outstanding."
       ],
-      "isAvailable": true,
-      "image": "https://www.shutterstock.com/image-photo/young-adult-profile-picture-red-260nw-1655747050.jpg"
+      "isAvailable": false,
+      "isFavorite":true,
+      "image": "https://www.shutterstock.com/image-photo/young-adult-profile-picture-red-260nw-1655747050.jpg",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsS4Mqt5dQzxprFWMkfVkbfcNJNQHDJFIpAA2O36iL3oKoAF0uq8OFKV84cJRZECUen8w&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6Qvk4ErWV6Ly_IkPAP2gR6L8nK41Ah7drFZmUOq-DAl3PAXY3yDDzmskAN2R7go2eyY&usqp=CAU",
+        "https://www.eventsource.ca/listings/CherryBakerEventSpecialists/gallery/cherry-baker-event-specialists-toronto-001-full_size.jpg?preset=sq640"
+      ]
     },
     {
+      "id":4,
       "username": "elegantrentals",
       "role": "Car Rental",
       "priceRange": "$500 - $1500",
@@ -53,27 +75,41 @@
         "Elegantrentals made our wedding transportation stress-free and stylish."
       ],
       "isAvailable": true,
-      "image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3763188.jpg&fm=jpg"
+      "isFavorite":false,
+      "image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3763188.jpg&fm=jpg",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT22YgVaHr59uNdiwG-5eyZ_ENyUMn6eTTsbjJN19Pl8g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQM156NG2Zs5eQsFPLeZJzw7Q3llJH7-J-ysNkoVNfQ7_neS0aQKNI2IOBqapWjmxYRQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSav-48R4F7dUOE3N8CBnbuBWJZQ04pyOJOWp3r70D2CfHROvMQxtmTiX_tprLabljLU3k&usqp=CAU"
+      ]
     },
     {
+      "id":5,
       "username": "floralfantasydecor",
       "role": "Decorator",
       "priceRange": "$800 - $2000",
-      "rating": 4.6,
+      "rating": 2.6,
       "reviews": [
         "Floralfantasydecor transformed our venue into a dream. Their decorations were stunning.",
         "The attention to detail and creativity in their decor was fantastic. Highly recommended!",
         "The decor by floralfantasydecor truly set the mood for our wedding. It was magical.",
         "They listened to our ideas and executed them perfectly, exceeding our expectations."
       ],
-      "isAvailable": true,
-      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjBwcm9maWxlfGVufDB8fDB8fHww&w=1000&q=80"
+      "isAvailable": false,
+      "isFavorite":true,
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjBwcm9maWxlfGVufDB8fDB8fHww&w=1000&q=80",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbH-yL1Z6StSPMypQXVnQr2VVCmBGisDEgrtuSaspInDMFrSQxzkHbmq34Foejwzz09c&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi45O5cH8LJQrTwA0ACuhcl_IPZg3MqcXrnAmMMrUItKxH6qh6Vo_PT-5DfpLrj3wLBkw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUAcLl96xpbxbzfxoppI84xJCavj1TzPSMcBA_fehy-d_PmzcvHEBbt3PD9vZQdkHXJU&usqp=CAU"
+      ]
     },
     {
+      "id":6,
       "username": "royalweddinghall",
       "role": "Wedding Hall",
       "priceRange": "$3000 - $8000",
-      "rating": 4.9,
+      "rating": 1.9,
       "reviews": [
         "The Royal Wedding Hall was the perfect choice for our big day. Elegant and spacious.",
         "Outstanding service and attention to detail. Our guests were impressed with the venue.",
@@ -81,7 +117,202 @@
         "The team at Royal Wedding Hall ensured everything ran smoothly. A memorable experience."
       ],
       "isAvailable": true,
-      "image": "https://i.pinimg.com/564x/b5/fa/2f/b5fa2ff262dd1b1bc391dbd1d0087833.jpg"
-    }
+      "isFavorite":false,
+      "image": "https://i.pinimg.com/564x/b5/fa/2f/b5fa2ff262dd1b1bc391dbd1d0087833.jpg",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLb7cP-HzCRIHxzeg18osoKhf0fZGu41iBgwCcWh0GCjTeTmJnEf7UQwzRTzRNzEfykog&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBY1RtyCoMa0J9I-FbJHCj_zBzadTl1oDSiToJhOz3rQPn5OB8yDSO06lUwdsS3c5tScc&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZczahl3jpBpB1iii2jHiSgEqjjN0cRJraFfPtwnI-SYV0dtDruvGAxvpWR-TF24ddD5E&usqp=CAU"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "elegantevents",
+      "role": "Event Planner",
+      "priceRange": "$1500 - $4000",
+      "rating": 4.4,
+      "reviews": [
+        "Elegant Events helped make our dream wedding a reality. They took care of every detail.",
+        "Their attention to detail, organization, and professionalism are second to none.",
+        "We can't thank Elegant Events enough for making our wedding day stress-free and beautiful.",
+        "Highly recommend Elegant Events for all your event planning needs."
+      ],
+      "isAvailable": true,
+      "isFavorite": false,
+      "image": "https://images.pexels.com/photos/3819797/pexels-photo-3819797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrApgoZMwkVCCMU5Rv_vnA6kx5ZuSi0IasTYtvRXzkX1FUO7ahrM-nK528TAmfzcSz0&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73cCLMMnhnDBIRYST3tmFaQnNaV7Sf1m4y-UST-5MhkwRIMCl871PTo3X2dD9gh6w7Bw&usqp=CAU",
+        "https://iso.500px.com/wp-content/uploads/2015/07/weddings_cover.jpeg"
+      ]
+    },
+    {
+      "id": 8,
+      "username": "southernfloral",
+      "role": "Florist",
+      "priceRange": "$800 - $2000",
+      "rating": 4.6,
+      "reviews": [
+        "Southern Floral created beautiful arrangements for our wedding. They exceeded our expectations.",
+        "Their floral designs added a touch of elegance and charm to our special day. Highly recommended.",
+        "Southern Floral's attention to detail and color coordination was fantastic.",
+        "We couldn't have been happier with the flowers for our wedding."
+      ],
+      "isAvailable": true,
+      "isFavorite": true,
+      "image": "https://images.pexels.com/photos/2256315/pexels-photo-2256315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://www.loveourweddingmag.com/wp-content/uploads/2017/08/Gary-Nunn-5.jpg",
+        "https://www.photoweds.com/public/Files/rif000002/1473/villa_baroncino_weddings_20.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbrydoTnW3l9Zkk37Dou7rcIgKcqSbwIou7N7CU45nj-ZpXfKFNlz7swrrv4bgTJt6S4&usqp=CAU"
+      ]
+    },
+    {
+      "id": 9,
+      "username": "musicmelody",
+      "role": "Musician",
+      "priceRange": "$800 - $2500",
+      "rating": 4.7,
+      "reviews": [
+        "Music Melody provided beautiful music for our wedding ceremony. It was enchanting.",
+        "Their musical talent and performance were exceptional. We were thrilled with their services.",
+        "Music Melody added a special touch to our wedding day, and their music was unforgettable.",
+        "We can't thank Music Melody enough for making our wedding memorable."
+      ],
+      "isAvailable": true,
+      "isFavorite": false,
+      "image": "https://images.pexels.com/photos/4967286/pexels-photo-4967286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-JsxOpmpkNlOTmeeSLOzjsXt0-6wzk_hdg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Es0VOw3JAa6kCjrANhPii7eDae7nLU1YifvhL_-HROAvpaoTXqT_FUjcMaJPyw9E3ME&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCv33QRYq4RlSiKf52WIQhhQI8CzBmjNTNkgFtCBREnvqMTDd-9nTdmtbxsYDaZU0yb_o&usqp=CAU"
+      ]
+    },
+    {
+      "id": 10,
+      "username": "deliciouscatering",
+      "role": "Caterer",
+      "priceRange": "$1200 - $3500",
+      "rating": 4.5,
+      "reviews": [
+        "Delicious Catering provided a mouthwatering spread for our wedding. Guests couldn't stop raving about the food.",
+        "Their catering team was professional and efficient. The service was impeccable.",
+        "The food by Delicious Catering was a highlight of our wedding. They exceeded our expectations.",
+        "We highly recommend Delicious Catering for their scrumptious dishes and friendly service."
+      ],
+      "isAvailable": true,
+      "isFavorite": false,
+      "image": "https://images.pexels.com/photos/325682/pexels-photo-325682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://cdn0.weddingwire.in/vendor/6789/3_2/960/jpg/205-nikita-rikin-125_15_196789-1553253962.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9VxinYOmOxMsRUSMji2vK61XD3gG8CbIMhIRV1GrRSfwoYn7ZEu-SEx8sQYoAXJbg9o4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJT_F-Uccy40JVQ6iZIu4I5ao8ru8_tgHVeIYjWjfr5IOzcJPKa2pxL_yxxESKjCFtwk&usqp=CAU"
+      ]
+    },
+    {
+      "id": 11,
+      "username": "invitationsbymark",
+      "role": "Stationery Designer",
+      "priceRange": "$300 - $800",
+      "rating": 4.8,
+      "reviews": [
+        "Invitations by Mark created stunning wedding invitations. We received so many compliments.",
+        "Their designs were elegant and unique. The quality of the stationery was exceptional.",
+        "Invitations by Mark's attention to detail and creativity were evident in every piece.",
+        "We couldn't be happier with our wedding stationery. Highly recommended."
+      ],
+      "isAvailable": true,
+      "isFavorite": false,
+      "image": "https://images.pexels.com/photos/3411612/pexels-photo-3411612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://www.djopus.com/wp-content/uploads/2017/03/Rachel-Laxton-Wedding-Photography-Ocala-Florida-001-1024x768.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltxS8cH9cypUOlQYEykHw9mtm5bYe70keIYoqgwe93YyJHPc5xiw6wZK-EnnchI7ecjI&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdspXqxYNN3yfHkR_UXPb80sEmdc7YEQin7DjwMB0jeG3E1uIdsZ845PgKfo1A3F95nk&usqp=CAU"
+      ]
+    },
+    {
+      "id": 12,
+      "username": "beautyglamour",
+      "role": "Makeup Artist",
+      "priceRange": "$500 - $1200",
+      "rating": 4.2,
+      "reviews": [
+        "Beauty Glamour did an amazing job with makeup for our wedding. We felt like stars.",
+        "Their makeup artists are skilled and professional. They created the perfect look for us.",
+        "The makeup by Beauty Glamour lasted all day and looked flawless in photos.",
+        "We highly recommend Beauty Glamour for makeup services on your special day."
+      ],
+      "isAvailable": true,
+      "isFavorite": true,
+      "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://www.baliweddingphoto.com/wp-content/uploads/2017/03/professional-wedding-photographer-bali-1030x687.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNPSLjyDaNNq6YooiSkA7SFxl5wVTSbMFtjyPkNqRZ_AnBkR5eH38exSYMAXk7s-6Tu0&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLZTbclJaNHejK5vp97kReildboMsp_c-BaiGtvUfy5rPb2jekNx0gDDqXZIBokPJB2zI&usqp=CAU"
+      ]
+    },
+    {
+      "id": 13,
+      "username": "dresstoimpress",
+      "role": "Bridal Boutique",
+      "priceRange": "$1000 - $3000",
+      "rating": 4.9,
+      "reviews": [
+        "Dress to Impress helped me find the perfect wedding gown. Their selection is exquisite.",
+        "The staff at Dress to Impress is knowledgeable and attentive. They made the experience special.",
+        "I felt like a princess in my gown from Dress to Impress. Highly recommend them.",
+        "Their bridal collections are stunning, and the quality is exceptional."
+      ],
+      "isAvailable": false,
+      "isFavorite": false,
+      "image": "https://images.pexels.com/photos/3229826/pexels-photo-3229826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://static.photocdn.pt/images/articles/2018/04/06/articles/2017_8/professional_wedding_photography_tips-1.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYNEzXRouNovEKXi-Fb96V3iDzQjWPzlkeT7B-bRlZKQ7_AVEIQysnR0Mlv9nEHV-ALK4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7azC8_2L1cQbU_7E0xGZgA3_JantE5as6PcQta4vV6a76Ih1dJRZww1TyokFIls1nPWI&usqp=CAU"
+      ]
+    },
+    {
+      "id": 14,
+      "username": "tastybitescatering",
+      "role": "Caterer",
+      "priceRange": "$1500 - $4000",
+      "rating": 4.5,
+      "reviews": [
+        "Tasty Bites Catering exceeded our expectations with a delicious spread. Our guests loved the food.",
+        "The presentation and taste of the food were exceptional. Their team is professional and attentive.",
+        "We received numerous compliments on the catering. Highly recommended for your special day.",
+        "Tasty Bites Catering made our wedding reception memorable with their delectable dishes."
+      ],
+      "isAvailable": true,
+      "isFavorite": true,
+      "image": "https://images.pexels.com/photos/5323941/pexels-photo-5323941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://weddingideasmag.telegraph.co.uk/wp-content/uploads/2013/01/kendra-allen-wedding-photos.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGG2lhVqooEiSkN0zrAcACZaL-pilILmvZ6IFIRr5xSEquBKr5dCs9rpqrb4MUzc9q24E&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM0GA0lA4mW_cSChXBUkEbASt2b2yCWctAzydl_8AsSL618NtXH-KggEO-tec4uZpkZQE&usqp=CAU"
+      ]
+    },
+    {
+      "id": 15,
+      "username": "musicmelodies",
+      "role": "Musician",
+      "priceRange": "$800 - $2000",
+      "rating": 4.7,
+      "reviews": [
+        "Music Melodies created a beautiful musical atmosphere at our wedding. Their performance was enchanting.",
+        "Their musicians are highly skilled and versatile. We received numerous compliments from our guests.",
+        "Music Melodies added a magical touch to our special day. We're grateful for their wonderful music.",
+        "Highly recommend Music Melodies for your wedding or event. Their melodies are unforgettable."
+      ],
+      "isAvailable": true,
+      "isFavorite": true,
+      "image": "https://images.pexels.com/photos/1797326/pexels-photo-1797326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "works": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGuvkm2qgE2LBD_Vu9x8eCs2zxMil7K_73202e5Cos7TyIvf4Ip9CAVHpqNHOobLJvrI&usqp=CAU",
+        "https://www.choosestudio22.com/wp-content/uploads/2019/02/DowntownDaytonWedding.jpg",
+        "https://www.luckylittlechapel.com/wp-content/uploads/2018/06/5-Benefits-of-Hiring-a-Professional-Wedding-Photographer.jpg"
+      ]
+    }        
   ]
   

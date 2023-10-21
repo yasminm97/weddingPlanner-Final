@@ -1,1 +1,3 @@
-export const titleFontFamily = 'Oleo Script, cursive';
+export const titleFontFamily = 'Futura';
+export const bodyFontFamily = 'Roboto';
+export const scriptFontFamily = 'Pacifico';

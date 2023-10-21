@@ -7,7 +7,7 @@ import SearchPage from './pages/SearchPage';
 import ServiceProviderInfo from './pages/ServiceProviderInfo';
 import Favorites  from './pages/Favorites';
 import NavBar  from './components/NavBar';
-import ValidationCode from './components/ValidationCode';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
         <Route path="/packages" element={<Packages />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/search" element={<SearchPage />} />
-        <Route path="/service-provider-info" element={<ServiceProviderInfo />} />
+        <Route path="/service-provider-info/:id" element={<ServiceProviderInfo />} />
+        <Route path="/services-page/:title" element={<ServicesPage />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/service" element={<ServiceProviderInfo />} />
       </Routes>

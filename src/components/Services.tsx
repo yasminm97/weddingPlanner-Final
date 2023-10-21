@@ -14,6 +14,7 @@ import { faGuitar } from '@fortawesome/free-solid-svg-icons/faGuitar';
 import { faCouch } from '@fortawesome/free-solid-svg-icons/faCouch';
 import { faGift } from '@fortawesome/free-solid-svg-icons/faGift';
 import { faEnvelope, faFan, faIcons, faVenusMars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 const services = [
     {
       title: 'Photography',
@@ -82,6 +83,7 @@ const services = [
 ];
 
 function Services() {
+
   return (
     <>
     <div className="services-container">
@@ -94,8 +96,10 @@ function Services() {
         {
         services.slice(0, 4).map((service, index) => (
           <div
-           className="service-item"
-           key={index}>
+          className="service-item"
+          component={Link}
+          to={`/services-page/${service.title}`}
+          key={index}>
             <Button
               color="primary"
               sx={{
@@ -125,7 +129,9 @@ function Services() {
         {
         services.slice(4, 8).map((service, index) => (
           <div
-           className="service-item"
+          className="service-item"
+          component={Link}
+          to={`/services-page/${service.title}`}
            key={index}>
             <Button
               color="primary"
@@ -155,7 +161,9 @@ function Services() {
         {
         services.slice(8, 12).map((service, index) => (
           <div
-           className="service-item"
+          className="service-item"
+          component={Link}
+          to={`/services-page/${service.title}`}
            key={index}>
             <Button
               color="primary"
@@ -185,7 +193,9 @@ function Services() {
         {
         services.slice(12, 16).map((service, index) => (
           <div
-           className="service-item"
+          className="service-item"
+          component={Link}
+          to={`/services-page/${service.title}`}
            key={index}>
             <Button
               color="primary"

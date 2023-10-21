@@ -11,17 +11,7 @@ import { Button } from '@mui/material';
 import { primaryFontColor, secondayFontColor, bgCardColor } from '../assets/custom/colors'
 import FavoriteIcon from './FavoriteIcon';
 import { Link } from 'react-router-dom';
-
-
-interface Provider{
-  username: string,
-  role: string,
-  priceRange: string,
-  rating: number,
-  reviews: string[],
-  isAvailable: boolean,
-  image:string
-}
+import { Provider } from '../entities/Providers';
 
 export default function PackageDetails() {
 
@@ -45,13 +35,14 @@ export default function PackageDetails() {
           <Typography variant="subtitle2" color={secondayFontColor}>{data.role}</Typography>
           <ListItem
           component={Link}
-          to="/service-provider-info"
+          to={`/service-provider-info/${data.id}`}
+          state={data}
            alignItems="flex-start"
             style={{ color:primaryFontColor, width:'100%', backgroundColor: 'rgba(230, 245, 243, 0.5)', padding: '10px', borderRadius: '8px', alignItems: 'center',  marginBottom:'1.5rem' }}>
             <ListItemAvatar>
               <Avatar alt="Remy Sharp" src={data.image} />
-          </ListItemAvatar>
-          <ListItemText
+            </ListItemAvatar>
+            <ListItemText
               primary={data.username}
               color={primaryFontColor}
               secondary={
@@ -67,7 +58,7 @@ export default function PackageDetails() {
                 </React.Fragment>
               }
             />
-            <FavoriteIcon />
+            <FavoriteIcon provider={data}/>
           </ListItem>
         </div>
         ))
